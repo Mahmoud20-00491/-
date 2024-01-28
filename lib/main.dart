@@ -49,7 +49,7 @@ class _HomepageState extends State<Homepage> {
           initialUrl: 'https://nabdelqanon.com/home/',
           javascriptMode: JavascriptMode.unrestricted,
           
-  },
+
 
         ),
       ),
