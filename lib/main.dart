@@ -48,10 +48,7 @@ class _HomepageState extends State<Homepage> {
           key: _key,
           initialUrl: 'https://nabdelqanon.com/home/',
           javascriptMode: JavascriptMode.unrestricted,
-          onWebViewCreated: (WebViewController webViewController) {
-            if (Platform.isAndroid) {
-              WebView.platform = SurfaceAndroidWebView();
-    }
+          
   },
 
         ),
